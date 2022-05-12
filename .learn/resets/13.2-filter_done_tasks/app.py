@@ -12,12 +12,4 @@ tasks = [
 
 
 #Your code go here:
-def deleteItem(item):
-	if item['done'] == True:
-		print(item['label'])
-		print(item['done'])
-		return item
-		#tasks.delete(item['Label'])
 
-new_tasks = list(filter(deleteItem, tasks))
-print(new_tasks)
