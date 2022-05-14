@@ -10,5 +10,6 @@ def matrixBuilder(num):
         matrix.append(matAux)
     return matrix
 
+
 print(matrixBuilder(3))
 
