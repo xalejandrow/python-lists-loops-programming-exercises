@@ -2,10 +2,6 @@ par = "Lorem ipsum dolor sit amet consectetur adipiscing elit Curabitur eget bib
 
 counts = {}
 #your code go here:
-for letter in par:
-    if letter.lower() in counts.keys():
-        counts[letter.lower()] += 1
-    elif letter != ' ':
-        counts[letter.lower()] = 1
+
 print(counts)
 
